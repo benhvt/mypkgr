@@ -4,6 +4,8 @@
 # mypkgr
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/benhvt/mypkgr/workflows/R-CMD-check/badge.svg)](https://github.com/benhvt/mypkgr/actions)
 <!-- badges: end -->
 
 The goal of mypkgr is to test how to developp an R package during the
