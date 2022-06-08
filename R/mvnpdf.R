@@ -10,6 +10,7 @@
 #' @return a list containing the matrix \code{x}, and a vector of length \code{n} of the multivariate normal distribution density values at those points.
 #' @export
 #'
+#'@importFrom mvtnorm dmvnorm
 #' @examples
 #' matrice <- cbind(c(1, 2), c(3,4), c(5,6))
 #' matrice
