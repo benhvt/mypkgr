@@ -1,0 +1,44 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# mypkgr
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of mypkgr is to test how to developp an R package
+
+## Installation
+
+You can install the development version of mypkgr from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("benhvt/mypkgr")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(mypkgr)
+## basic example code
+matrice <- cbind(c(1, 2), c(3,4), c(5,6))
+matrice
+mean_M <- c(0,0)
+varcovM <- diag(1, 2)
+mvnpdf(matrice, mean_M, varcovM = varcovM, Log = FALSE)
+```
