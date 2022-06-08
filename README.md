@@ -6,7 +6,8 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of mypkgr is to test how to developp an R package
+The goal of mypkgr is to test how to developp an R package for isped
+summer school
 
 ## Installation
 
